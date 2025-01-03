@@ -4,7 +4,7 @@ const emailInp = document.getElementById('email');
 const errMsg = document.querySelector('.error-msg');
 const errIcon= document.querySelector('.error-icon');
 const checkIcon= document.querySelector('.check-icon');
-const vaildEmailPattern = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+const vaildEmailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 
 // Submit Function
